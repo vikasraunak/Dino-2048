@@ -1,0 +1,162 @@
+[1mdiff --git a/favicon.ico b/favicon.ico[m
+[1mdeleted file mode 100644[m
+[1mindex 22109e0..0000000[m
+Binary files a/favicon.ico and /dev/null differ
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 951c08d..52ceb9a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -13,7 +13,7 @@[m
+ [m
+ [m
+   <link href="style/main.css" rel="stylesheet" type="text/css">[m
+[31m-  <link rel="shortcut icon" href="favicon.ico">[m
+[32m+[m[32m  <link rel="shortcut icon" href="favicon.gif">[m
+   <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">[m
+   <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->[m
+   <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone, retina -->[m
+[1mdiff --git a/style/main.css b/style/main.css[m
+[1mindex 8db56dd..05e8b21 100644[m
+[1m--- a/style/main.css[m
+[1m+++ b/style/main.css[m
+[36m@@ -323,37 +323,37 @@[m [mhr {[m
+       font-size: 16px;[m
+       color: #354b59;}[m
+     .tile.tile-2 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/2.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/2.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }[m
+     .tile.tile-4 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/4.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/4.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }[m
+     .tile.tile-8 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/8.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/8.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       font-weight: medium;[m
+       font-size: 11px;[m
+     }[m
+     .tile.tile-16 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/16.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/16.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       font-weight: medium;[m
+       font-size: 10px;[m
+     }[m
+     .tile.tile-32 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/32.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/32.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       font-size: 14px;[m
+     }[m
+     .tile.tile-64 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/64.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/64.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       font-size: 14px;[m
+[36m@@ -361,7 +361,7 @@[m [mhr {[m
+     }[m
+     .tile.tile-128 .tile-inner {[m
+       font-weight: medium;[m
+[31m-      background: url('../tile-sets/presidents/128.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/128.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);[m
+[36m@@ -370,7 +370,7 @@[m [mhr {[m
+         .tile.tile-128 .tile-inner {[m
+           font-size: 12px; } }[m
+     .tile.tile-256 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/256.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/256.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);[m
+[36m@@ -379,7 +379,7 @@[m [mhr {[m
+         .tile.tile-256 .tile-inner {[m
+           font-size: 16px; } }[m
+     .tile.tile-512 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/512.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/512.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);[m
+[36m@@ -388,7 +388,7 @@[m [mhr {[m
+         .tile.tile-512 .tile-inner {[m
+           font-size: 13px; } }[m
+     .tile.tile-1024 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/1024.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/1024.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);[m
+[36m@@ -397,7 +397,7 @@[m [mhr {[m
+         .tile.tile-1024 .tile-inner {[m
+           font-size: 10px; } }[m
+     .tile.tile-2048 .tile-inner {[m
+[31m-      background: url('../tile-sets/presidents/2048.gif');[m
+[32m+[m[32m      background: url('../tiles/dino/2048.gif');[m
+       background-size: 100%;[m
+       color: rgba(0,0,0,0);[m
+       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);[m
+[1mdiff --git a/tile-sets/presidents/1024.gif b/tile-sets/presidents/1024.gif[m
+[1mdeleted file mode 100644[m
+[1mindex db46a58..0000000[m
+Binary files a/tile-sets/presidents/1024.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/128.gif b/tile-sets/presidents/128.gif[m
+[1mdeleted file mode 100644[m
+[1mindex 01477d9..0000000[m
+Binary files a/tile-sets/presidents/128.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/16.gif b/tile-sets/presidents/16.gif[m
+[1mdeleted file mode 100644[m
+[1mindex cf31ffc..0000000[m
+Binary files a/tile-sets/presidents/16.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/2.gif b/tile-sets/presidents/2.gif[m
+[1mdeleted file mode 100644[m
+[1mindex 5504af4..0000000[m
+Binary files a/tile-sets/presidents/2.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/2048.gif b/tile-sets/presidents/2048.gif[m
+[1mdeleted file mode 100644[m
+[1mindex ee2d5cb..0000000[m
+Binary files a/tile-sets/presidents/2048.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/256.gif b/tile-sets/presidents/256.gif[m
+[1mdeleted file mode 100644[m
+[1mindex 872ad22..0000000[m
+Binary files a/tile-sets/presidents/256.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/32.gif b/tile-sets/presidents/32.gif[m
+[1mdeleted file mode 100644[m
+[1mindex 73e0f1a..0000000[m
+Binary files a/tile-sets/presidents/32.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/4.gif b/tile-sets/presidents/4.gif[m
+[1mdeleted file mode 100644[m
+[1mindex ffee18d..0000000[m
+Binary files a/tile-sets/presidents/4.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/4.gif-c200 b/tile-sets/presidents/4.gif-c200[m
+[1mdeleted file mode 100644[m
+[1mindex af55c27..0000000[m
+Binary files a/tile-sets/presidents/4.gif-c200 and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/512.gif b/tile-sets/presidents/512.gif[m
+[1mdeleted file mode 100644[m
+[1mindex e4ec5d5..0000000[m
+Binary files a/tile-sets/presidents/512.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/64.gif b/tile-sets/presidents/64.gif[m
+[1mdeleted file mode 100644[m
+[1mindex c404ee1..0000000[m
+Binary files a/tile-sets/presidents/64.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/8.gif b/tile-sets/presidents/8.gif[m
+[1mdeleted file mode 100644[m
+[1mindex 14cc466..0000000[m
+Binary files a/tile-sets/presidents/8.gif and /dev/null differ
+[1mdiff --git a/tile-sets/presidents/Thumbs.db b/tile-sets/presidents/Thumbs.db[m
+[1mdeleted file mode 100644[m
+[1mindex 63df3b2..0000000[m
+Binary files a/tile-sets/presidents/Thumbs.db and /dev/null differ
