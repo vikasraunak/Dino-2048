@@ -6,6 +6,18 @@ To Do:
 1. Counters (Moves + Times Played) 
 2. Fading Image Adjustment (Bug)
 
+### Screenshot1
+
+<p align="center">
+  <img src="Screenshot1.png" alt="Screenshot2"/>
+</p>
+
+### Screenshot2
+
+<p align="center">
+  <img src="Screenshot2.png" alt="Screenshot2"/>
+</p>
+
 The Original Project:
 
 # 2048
