@@ -9,13 +9,19 @@ To Do:
 ### Screenshot1
 
 <p align="center">
+  <img src="Screenshot.png" alt="Screenshot1"/>
+</p>
+
+### Screenshot2
+
+<p align="center">
   <img src="Screenshot1.png" alt="Screenshot2"/>
 </p>
 
 ### Screenshot2
 
 <p align="center">
-  <img src="Screenshot2.png" alt="Screenshot2"/>
+  <img src="Screenshot2.png" alt="Screenshot3"/>
 </p>
 
 The Original Project:
