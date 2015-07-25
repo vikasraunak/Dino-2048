@@ -1,4 +1,6 @@
 #Dino-2048
+http://vikasraunak.github.io/Dino-2048/
+
 Fork of 2048.
 
 To Do:
