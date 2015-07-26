@@ -1,4 +1,6 @@
 #Dino-2048
+http://vikasraunak.github.io/Dino-2048/
+
 Fork of 2048.
 
 To Do:
@@ -6,19 +8,19 @@ To Do:
 1. Counters (Moves + Times Played) 
 2. Fading Image Adjustment (Bug)
 
-### Screenshot1
+### Screenshot 1
 
 <p align="center">
   <img src="Screenshot.png" alt="Screenshot1"/>
 </p>
 
-### Screenshot2
+### Screenshot 2
 
 <p align="center">
   <img src="Screenshot1.png" alt="Screenshot2"/>
 </p>
 
-### Screenshot2
+### Screenshot 3
 
 <p align="center">
   <img src="Screenshot2.png" alt="Screenshot3"/>
