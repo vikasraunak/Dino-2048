@@ -6,7 +6,8 @@ Fork of 2048.
 To Do:
 
 1. Counters (Moves + Times Played) 
-2. Fading Image Adjustment (Bug)
+2. Fading Image Time Adjustment (Bug)
+3. FB/Twitter Buttons
 
 ### Screenshot 1
 
